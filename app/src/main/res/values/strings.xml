@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="app_name">Holiday Packing List</string>
+    <string name="first_list">Trudi</string>
+    <string name="second_list">Will</string>
+    <string name="third_list">Molly</string>
+    <string name="fourth_list">Poppy</string>
+    <string name="fifth_list">Home</string>
+    <string name="sixth_list">Food</string>
+    <string name="seventh_list">Medication</string>
+    <string name="eighth_list">Anything Else</string>
+    <string name="action_add_new_list">New List</string>
+    <string name="action_reset_all">Reset All?</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="title_activity_trudi_list">Trudi\'s List</string>
+
+
+</resources>

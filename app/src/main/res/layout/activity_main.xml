@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/first_list_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/first_list"
+        android:layout_below="@id/title"
+        android:onClick="showTrudiList"/>
+
+    <Button
+        android:id="@+id/second_list_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/second_list"
+        android:layout_below="@id/first_list_button"/>
+
+    <Button
+        android:id="@+id/third_list_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/third_list"
+        android:layout_below="@id/second_list_button"/>
+
+    <Button
+        android:id="@+id/fourth_list_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fourth_list"
+        android:layout_below="@id/third_list_button"/>
+
+    <Button
+        android:id="@+id/fifth_list_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fifth_list"
+        android:layout_below="@id/fourth_list_button"/>
+
+    <Button
+        android:id="@+id/sixth_list_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sixth_list"
+        android:layout_below="@id/fifth_list_button"/>
+
+    <Button
+        android:id="@+id/seventh_list_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/seventh_list"
+        android:layout_below="@id/sixth_list_button"/>
+
+    <Button
+        android:id="@+id/eighth_list_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eighth_list"
+        android:layout_below="@id/seventh_list_button"/>
+
+</RelativeLayout>
