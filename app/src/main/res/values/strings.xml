@@ -3,13 +3,21 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="app_name">Holiday Packing List</string>
     <string name="first_list">Trudi</string>
+    <string name="first_total">6/10</string>
     <string name="second_list">Will</string>
+    <string name="second_total">3/10</string>
     <string name="third_list">Molly</string>
+    <string name="third_total">10/10</string>
     <string name="fourth_list">Poppy</string>
+    <string name="fourth_total">9/10</string>
     <string name="fifth_list">Home</string>
+    <string name="fifth_total">0/7</string>
     <string name="sixth_list">Food</string>
+    <string name="sixth_total">8/17</string>
     <string name="seventh_list">Medication</string>
+    <string name="seventh_total">5/5</string>
     <string name="eighth_list">Anything Else</string>
+    <string name="eighth_total">4/6</string>
     <string name="action_add_new_list">New List</string>
     <string name="action_reset_all">Reset All?</string>
     <string name="action_settings">Settings</string>
@@ -17,6 +25,8 @@
 
     <string name="title_activity_trudi_list">Trudi\'s List</string>
     <string name="test">test</string>
+    <string name="clothes">Clothes</string>
+    <string name="shoes">Shoes</string>
 
 
 </resources>

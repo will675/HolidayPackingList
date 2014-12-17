@@ -1,9 +1,11 @@
 package com.example.will.holidaypackinglist;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.CheckBox;
 
 
 public class TrudiListActivity extends ActionBarActivity {
@@ -35,5 +37,23 @@ public class TrudiListActivity extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void onCheckboxClicked(View view) {
+        // Is the view now checked?
+        boolean checked = ((CheckBox) view).isChecked();
+
+        // Check which checkbox was clicked
+        switch (view.getId()) {
+            case R.id.checkbox_clothes:
+                if (checked)
+                    System.out.println("clothes selected");
+                break;
+            case R.id.checkbox_shoes:
+                if (checked)
+                    System.out.println("shoes selected");
+                break;
+            //TODO add use of saving to an activity level sharedpreference = http://developer.android.com/training/basics/data-storage/shared-preferences.html
+        }
     }
 }
